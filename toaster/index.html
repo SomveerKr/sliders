@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome CDN link for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+  </head>
+  <body>
+    <div class="input-your-values">
+      <div class="inputs">
+        <div class="input">
+            <label for="title">Title</label>
+            <input type="text" name="title" value="Success" />
+        </div>
+
+        <div class="input">
+            <label for="message">Message</label>
+            <input type="text" name="message" value="Message has been sent!" />
+        </div>
+
+      </div>
+
+      <div class="selects">
+        <div class="select">
+            <label for="colors">Color</label>
+            <select name="colors" id="colors" class="select-input">
+              <option value="primary">Primary</option>
+              <option value="success">Success</option>
+              <option value="info">Info</option>
+              <option value="warning">Warning</option>
+              <option value="danger">Danger</option>
+              <option value="muted">Muted</option>
+            </select>
+        </div>
+        <div class="select">
+            <label for="icons">Icon</label>
+            <select name="icons" id="icons" class="select-input">
+              <option value="check icon">Check icon</option>
+              <option value="close icon">Close icon</option>
+              <option value="warning icon">Warning icon</option>
+              <option value="danger icon">Danger icon</option>
+              <option value="info icon">Info icon</option>
+            </select>
+        </div>
+
+
+
+      </div>
+
+      <!-- <input type="checkbox"> Closeable toast? -->
+    </div>
+    <div class="buttons">
+      <button  class="btn" id="success">Show Toaster</button>
+    </div>
+    <ul class="notifications"></ul>
+
+    <script src="script.js" ></script>
+  </body>
+</html>
